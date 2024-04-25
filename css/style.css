@@ -1,6 +1,15 @@
+boby{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
 h1 {
  color: aquass;   
 }
 .home{
-    color: aqua;
+    background-image: url("../images/3457.jpg");
+    background-size: cover;
+    color:aqua;
+
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
