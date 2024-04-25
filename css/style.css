@@ -7,8 +7,10 @@ h1 {
 }
 .home{
     background-image: url("../images/3457.jpg");
-    background-size:auto;
-    color:aqua;
+    background-size:cover;
+
+    background-blend-mode: hard-light;
+    color:rgb(14, 155, 155);
 
     padding-top: 200px;
     padding-bottom: 200px;
