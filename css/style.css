@@ -1,4 +1,4 @@
-boby{
+body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -7,7 +7,7 @@ h1 {
 }
 .home{
     background-image: url("../images/3457.jpg");
-    background-size: cover;
+    background-size:auto;
     color:aqua;
 
     padding-top: 200px;
