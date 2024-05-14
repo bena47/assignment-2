@@ -6,7 +6,7 @@ h1 {
  color: aquass;   
 }
 .home{
-    background-image: url("../images/3457.jpg");
+    background-image: url("../images/57.jpg");
     background-size:cover;
 
     background-blend-mode: hard-light;
@@ -14,4 +14,7 @@ h1 {
 
     padding-top: 200px;
     padding-bottom: 200px;
+}
+html, body {
+height:100%
 }
