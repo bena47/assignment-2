@@ -69,6 +69,7 @@ footer{
     display:flex;
     justify-content: end;
     align-items: end;
+    
 }
 a{
     text-decoration: none;
@@ -83,4 +84,8 @@ a:hover{
     transform: scale(1.2);
 
     
+}
+.nav-right{
+    float:inherit;
+    transform: scale(1.0);
 }

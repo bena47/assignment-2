@@ -9,76 +9,46 @@
 </head>
 <body>
     <!--this is the main body-->
-    <a href="index.html">HOME</a> | <a href="about.html">About us</a> | <a href="registration.html">Registration</a> | <a href="contact.html">contact us</a>
-    <h1>Fill in your details</h1>
-    <form action="contact form.php" method="post">
-<table>
-    <tr>
-    <th>
-        Name :
-    </th>
-    <td>
-        <input type="text" placeholder="Name" name=""
-    </td>
-    </tr>
-    <th>
-        Passsword :
-    </th>
-    <td>
-        <input type="password" placeholder="Passsword">
-    </td>
-    <tr>
-        <th>
-            Gender :
-        </th>
-        <td>
-            <input type="radio" name="Gender">male<br>
-            <input type="radio" name="Gender">female<br>
-            <input type="radio" name="Gender">prefer not to say
+    <div class="nav">
+        <a href="index.html">Home</a> 
+     <a href="about.html">About</a> 
+      <a href="registration.html">Registration</a> 
+     <a href="contact.html">Contact</a>
+    </div>
+    <center>
+        <div class="form">
+            <h1>Fill in your information</h1>
+            <form action="">
             
-        </td>
-    </tr>
-    <tr>
-        <th>
-            Email :
-        </th>
-        <td>
-          <input type="mail" placeholder="Email"  name=""
-        </td>
-    </tr>
-    <tr>
-        <th>
-            Phone No :
-        </th>
-        <td>
-            <select>
-             <option >254</option> 
-             <option >255</option> 
-             <option >001</option> 
-             <option >256</option> 
-             <option >258</option> 
-
-            </select>
-            <input type="phone" placeholder="712******" name="">
-        </td>
-    </tr>
-    <tr>
-        <th>
-            Location
-        </th>
-        <td>
-            <input type="text" placeholder="Location" name="">
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <button type="submit"  name="submit">Submit</button>
-        </td>
-    </tr>
+                <input type="text" placeholder="Name" >
+                <br>
+                
+                <input type="email" placeholder="Email">
+                <br>
+                
+                <input type="text" placeholder="Address">
+                <br>
+                <input type="number" placeholder="Phonenumber">
+                <br>
+                Gender:
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="notsay">Not to say</option>
+                </select>
+                <br>
+                <button>Submit</button>
     
-</table>
-    </form>
+    
+    
+    
+            </form>
+        </div>
+    </center>
+    
+    
     
 </body>
+
 
 </html>
