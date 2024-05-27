@@ -89,3 +89,8 @@ a:hover{
     float:inherit;
     transform: scale(1.0);
 }
+.banner{
+    background-color: chocolate;
+    paddding 20 px;
+    text-align: center;
+}
