@@ -115,7 +115,7 @@ clear: both;
     padding: 15px;
 }
 @media screen and (max-width:500px){
-    .content, .sidebar{
+    .content, .sidebar, img{
         width:100%;
     }
 }
