@@ -1,0 +1,19 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+.content{
+    float: left;
+    width: 69%;
+    padding: 15px;
+}
+.sidebar{
+    float: left;
+    width: 31%;
+    padding: 15px;
+}
+@media screen and (max-width:500px){
+    .content, .sidebar, img{
+        width:100%;
+    }
+}

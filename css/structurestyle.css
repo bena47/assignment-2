@@ -30,31 +30,8 @@ footer{
     
 }
 
-.nav{
-    margin:10px;
-    display:flex;
-    justify-content: end;
-    align-items: end;
-    
-}
-.nav-right{
-    float:inherit;
-    transform: scale(1.0);
-}
-a{
-    text-decoration: none;
-    border:none;
-    border-radius: 5px;
-    color: black;
-    margin: 10px;
 
-}
-a:hover{
-    color: rgb(19, 69, 52);
-    transform: scale(1.2);
 
-    
-}
 
 .banner{
     background-color: chocolate;
@@ -82,7 +59,4 @@ clear: both;
         width:100%;
     }
 }
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 25px;
-}
+
