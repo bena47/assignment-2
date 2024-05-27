@@ -5,11 +5,14 @@ margin: 0;
 height: 100vh;
 
 }
+*{
+    box-sizing: border-box;
+}
 h1 {
  color: aquass;   
 }
 .home{
-    background-image: url("../images/57.jpg");
+    background-image: url("../images/57.jpg") ;
     background-size:cover;
 
     background-blend-mode: hard-light;
@@ -93,4 +96,20 @@ a:hover{
     background-color: chocolate;
     paddding 20 px;
     text-align: center;
+}
+.row::after{
+content: " ";
+display: block;
+clear: both;
+}
+
+.content{
+    float: left;
+    width: 60%;
+    padding: 15px;
+}
+.sidebar{
+    float: left;
+    width: 40%;
+    padding: 15px;
 }
