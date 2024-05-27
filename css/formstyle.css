@@ -1,0 +1,39 @@
+.form input{
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 3px;
+    border-color: black;
+    padding-bottom: 10px;
+    outline: none;
+
+
+   
+}
+.form select{
+    width: 140px;
+    height: 20px;
+    margin: 10px ;
+    outline: none;
+}
+.form button{
+    width: 100px;
+    height: 30px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    
+}
+.form button:hover{
+    background-color: rgb(15, 71, 53);
+    color: white;
+}
+.form ::placeholder{
+    text-align: center;
+    color: black;
+}
