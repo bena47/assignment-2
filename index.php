@@ -23,8 +23,8 @@ text-align: center;
 <body>
 <?php include_once("templates/nav.php");?>
     <div class="nav-right">
-        <a href="signup.html">Sign up</a>
-        <a href="Signin.html">Sign in</a>
+        <a href="signup.php">Sign up</a>
+        <a href="Signin.php">Sign in</a>
     </div>
 
     <div class="banner">
