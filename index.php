@@ -57,7 +57,4 @@ text-align: center;
     
     
         
-<footer>
-    <p>All rights reserved</p>
-</footer>
-</html>
+<?php include_once("templates/footer.php");
