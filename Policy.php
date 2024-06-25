@@ -59,7 +59,4 @@ Device information, such as your mobile device ID, model, and manufacturer, and 
    
 
 
-<footer>
-    <p>All rights reserved</p>
-</footer>
-</html>
+    <?php include_once("templates/footer.php");
