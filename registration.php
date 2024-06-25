@@ -13,11 +13,11 @@
 <body>
     <!--this is the main body-->
     <div class="nav">
-        <a href="index.html">Home</a> 
-     <a href="about.html">About</a> 
-      <a href="registration.html">Registration</a> 
-     <a href="contact.html">Contact</a>
-     <a href="Policy.html">Policy</a>
+        <a href="index.php">Home</a> 
+     <a href="about.php">About</a> 
+      <a href="registration.php">Registration</a> 
+     <a href="contact.php">Contact</a>
+     <a href="Policy.php">Policy</a>
     </div>
     <div class="banner">
         <h1>BENA TECH CO.</h1> 
