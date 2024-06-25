@@ -1,4 +1,4 @@
 <footer>
-    <p>All rights reserved</p>
+    Copyright &copy; Bena Tech - Allrights Reserved
 </footer>
 </html>
