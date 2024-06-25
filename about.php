@@ -12,13 +12,7 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="nav">
-        <a href="index.html">Home</a> 
-     <a href="about.html">About</a> 
-      <a href="registration.html">Registration</a> 
-     <a href="contact.html">Contact</a>
-     <a href="Policy.html">Policy</a>
-    </div>
+<?php include_once("templates/nav.php");?>
     <div class="banner">
         <h1>BENA TECH CO.</h1> 
         </div>

@@ -21,13 +21,7 @@ text-align: center;
     
 </head>
 <body>
-    <div class="nav">
-        <a href="index.html">Home</a> 
-     <a href="about.html">About</a> 
-      <a href="registration.html">Registration</a> 
-     <a href="contact.html">Contact</a>
-     <a href="Policy.html">Policy</a>
-    </div>
+<?php include_once("templates/nav.php");?>
     <div class="nav-right">
         <a href="signup.html">Sign up</a>
         <a href="Signin.html">Sign in</a>
