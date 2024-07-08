@@ -1,5 +1,26 @@
 <?php 
 require_once("connect.php");
+
+if(isset($_POST["submit"])){
+    $name=mysqli_real_escape_string($conn,addslashes($_POST["name"]));
+    $email=mysqli_real_escape_string($conn,addslashes($_POST['email']));
+    $address=mysqli_real_escape_string($conn,addslashes($_POST['address']));
+    $number=mysqli_real_escape_string($conn,addslashes($_POST['number']));
+    $gender=mysqli_real_escape_string($conn,addslashes($_POST['gender']));
+    
+    $sql="INSERT INTO `forms`(`name`, `email`, `address`, `number`, `gender`) VALUES ('$name','$email','$password','$number','$gender')";
+    $result=$conn->query($sql);
+    
+    if($result) {
+        echo"successfully registered";
+        header("location: index.php");
+        exit();
+    }
+        else{
+            echo"error";
+        }
+    
+    } 
 ?>
 <!DOCTYPE html>
 <html lang="en">
