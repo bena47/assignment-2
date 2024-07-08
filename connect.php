@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $dbusername = "root";
-$dbpassword = " ";
+$dbpassword = "";
 $dbname = "redo";
 
 // Create connection
