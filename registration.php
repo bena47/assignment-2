@@ -8,11 +8,10 @@ if(isset($_POST["submit"])){
     $number=mysqli_real_escape_string($conn,addslashes($_POST['number']));
     $gender=mysqli_real_escape_string($conn,addslashes($_POST['gender']));
     
-    $sql="INSERT INTO `forms`(`name`, `email`, `address`, `number`, `gender`) VALUES ('$name','$email','$password','$number','$gender')";
+    $sql="INSERT INTO `information`(`name`, `email`, `address`, `number`, `gender`) VALUES ('$name','$email',`$address`,'$number','$gender')";
     $result=$conn->query($sql);
     
     if($result) {
-        echo"successfully registered";
         header("location: index.php");
         exit();
     }
@@ -42,18 +41,19 @@ if(isset($_POST["submit"])){
         </div>
     <center>
         <div class="form">
+            <form action="" method="post">
             <h1>Fill in your information</h1>
             <form action="">
             
-                <input type="text" placeholder="Name" >
+                <input type="text" name="name"placeholder="Name" >
                 <br>
                 
-                <input type="email" placeholder="Email">
+                <input type="email" name="email" placeholder="Email">
                 <br>
                 
-                <input type="text" placeholder="Address">
+                <input type="text" name="address" placeholder="Address">
                 <br>
-                <input type="number" placeholder="Phonenumber">
+                <input type="number" name="number" placeholder="Phonenumber">
                 <br>
                 Gender:
                 <select name="gender" id="gender">
@@ -62,13 +62,15 @@ if(isset($_POST["submit"])){
                     <option value="notsay">Not to say</option>
                 </select>
                 <br>
-                <button>Submit</button>
+                <button type="submit" name="submit"  value="submit">Submit</button>
     
     
     
     
             </form>
+            </form>
         </div>
+
     </center>
     
     
