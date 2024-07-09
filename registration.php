@@ -4,11 +4,10 @@ require_once("connect.php");
 if(isset($_POST["submit"])){
     $name=mysqli_real_escape_string($conn,addslashes($_POST["name"]));
     $email=mysqli_real_escape_string($conn,addslashes($_POST['email']));
-    $address=mysqli_real_escape_string($conn,addslashes($_POST['address']));
     $number=mysqli_real_escape_string($conn,addslashes($_POST['number']));
     $gender=mysqli_real_escape_string($conn,addslashes($_POST['gender']));
     
-    $sql="INSERT INTO `information`(`name`, `email`, `address`, `number`, `gender`) VALUES ('$name','$email',`$address`,'$number','$gender')";
+    $sql="INSERT INTO `information`(`name`, `email`,  `number`, `gender`) VALUES ('$name','$email','$number','$gender')";
     $result=$conn->query($sql);
     
     if($result) {
@@ -51,8 +50,7 @@ if(isset($_POST["submit"])){
                 <input type="email" name="email" placeholder="Email">
                 <br>
                 
-                <input type="text" name="address" placeholder="Address">
-                <br>
+                
                 <input type="number" name="number" placeholder="Phonenumber">
                 <br>
                 Gender:
